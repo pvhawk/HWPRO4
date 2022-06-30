@@ -28,3 +28,6 @@ if __name__ == '__main__':
 ]
     for item in FlatIterator(nested_list):
         print(item)
+
+    flat_list = [item for item in FlatIterator(nested_list)]
+    print(flat_list)
